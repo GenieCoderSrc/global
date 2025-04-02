@@ -1,7 +1,9 @@
 name: global
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "Global package providing easy access to GetIt service locator for registering and retrieving services."
+version: 0.0.2
+homepage: https://github.com/GenieCoderSrc/global
+repository: https://github.com/GenieCoderSrc/global
+issue_tracker: https://github.com/GenieCoderSrc/global/issues
 
 environment:
   sdk: ^3.6.0
@@ -24,6 +26,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+example:
+  path: example
 
   # To add assets to your package, add an assets section, like this:
   # assets:
